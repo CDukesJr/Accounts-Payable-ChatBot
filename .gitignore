@@ -76,7 +76,21 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+**/.ipynb_checkpoints/
+Untitled.ipynb
+
+# Sensitive + large data
+Data/raw/
+Data/Raw/
+Data/processed/
+Data/processed/**
+
+# Chroma / vector DB artifacts (your giant files)
+Accounts-Payable-ChatBot/
+chroma.sqlite3
+*.sqlite3
+*.bin
+*.pickle
 
 # IPython
 profile_default/
